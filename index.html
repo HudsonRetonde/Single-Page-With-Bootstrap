@@ -1,37 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/estilos.css">
     <title>Casa Fina Arquiteura</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h2>Sobre nós</h2>
-        <img class="img-responsive" src="assets/img/empresa.jpg" 
-        alt="imagem de funcionários da empresa conversando">
+      <h2>Sobre nós</h2>
+      <img
+        class="img-responsive"
+        src="assets/img/empresa.jpg"
+        alt="imagem de funcionários da empresa conversando"
+      />
+      <div class="panel-group" id="paneis-sobre">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3
+              data-toggle="collapse"
+              data-target="#primeiro-paragrafo"
+              data-parent="#paneis-sobre"
+            >
+              Desde 1935
+            </h3>
+          </div>
+          <div id="primeiro-paragrafo" class="collapse in">
+            <div class="panel-body">
+              <p>
+                A Casa Fina Arquitetura está no mercado desde 1935 trazendo uma
+                séries de projetos com extrema qualidade para seus clientes e
+                mudando suas vidas para sempre.
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
-        <p id="primeiro-paragrafo" class="collapse in">A Casa Fina Arquitetura está no mercado desde 1935
-             trazendo uma séries de projetos com extrema qualidade
-             para seus clientes e mudando suas vidas para sempre.
-        </p>
-
-        <h2 data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h2>
-        <p id="segundo-paragrafo" class="collapse">A Casa Fina Arquitetura está no mercado desde 1935
-             trazendo uma séries de projetos com extrema qualidade
-             para seus clientes e mudando suas vidas para sempre.
-        </p>
-
-        <h2 data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h2>
-        <p id="terceiro-paragrafo" class="collapse">A Casa Fina Arquitetura está no mercado desde 1935
-             trazendo uma séries de projetos com extrema qualidade
-             para seus clientes e mudando suas vidas para sempre.
-        </p>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3
+              data-toggle="collapse"
+              data-target="#segundo-paragrafo"
+              data-parent="#paneis-sobre"
+            >
+              Desde 1935
+            </h3>
+          </div>
+          <div id="segundo-paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>
+                A Casa Fina Arquitetura está no mercado desde 1935 trazendo uma
+                séries de projetos com extrema qualidade para seus clientes e
+                mudando suas vidas para sempre.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3
+              data-toggle="collapse"
+              data-target="#terceiro-paragrafo"
+              data-parent="#paneis-sobre"
+            >
+              Desde 1935
+            </h3>
+          </div>
+          <div id="terceiro-paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>
+                A Casa Fina Arquitetura está no mercado desde 1935 trazendo uma
+                séries de projetos com extrema qualidade para seus clientes e
+                mudando suas vidas para sempre.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-<script src="assets/js/jquery.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
+    <script src="assets/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
