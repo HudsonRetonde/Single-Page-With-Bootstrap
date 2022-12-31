@@ -164,18 +164,11 @@
 
     <section>
       <h2 class="container titulo-depoimentos">Depoimentos dos Clientes</h2>
-      <div
-        id="carousel-example-generic"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li
-            data-target="#carousel-example-generic"
-            data-slide-to="0"
-            class="active"
-          ></li>
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
@@ -260,9 +253,12 @@
           />
         </div>
 
-        <div class="form-group">
+        <div class="form-goup">
           <label for="contato-email">Email</label>
-          <input type="email" class="form-control" id="contato-email" />
+          <div class="input-group">
+            <div class="input-group-addon">@</div>
+            <input type="email" class="form-control" id="contato-email" />
+          </div>
         </div>
 
         <div class="group-radio">
@@ -279,7 +275,8 @@
               Pessoa Jurídica
             </label>
           </div>
-        </div><!--  
+        </div>
+        <!--  
 
         --><select class="contato-select form-control">
           <option disabled selected>Tipo de Situação</option>
@@ -292,6 +289,16 @@
       </form>
     </section>
 
+    <footer>
+      <address>
+        <strong>Casa Fina Arquitetura</strong><br />
+        Avenida Afonso Pena, 3185, Funcionários<br />
+        Belo Horizonte - MG<br />
+        Tel: (31) 5571-2751 ou 5083-3884<br />
+      </address>
+      <address>E-mail: contato.casafina@arquitetura.com.br</address>
+
+    </footer>
     <script src="assets/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
