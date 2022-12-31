@@ -13,7 +13,37 @@
     <title>Casa Fina Arquiteura</title>
   </head>
   <body>
-    <section class="container">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#collapse-navbar"
+            aria-expanded="false"
+          >
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Casa Fina Arquitetura</a>
+        </div>
+
+        <div id="collapse-navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#sobre-nos">Sobre Nós</a></li>
+            <li><a href="#premios">Prêmios</a></li>
+            <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="sobre-nos" class="container">
       <h2>Sobre nós</h2>
       <img
         class="img-responsive"
@@ -85,14 +115,14 @@
       </div>
     </section>
 
-    <section class="jumbotron">
+    <section id="premios" class="jumbotron">
       <div class="container">
         <h3>Mais de 100 prêmios em design e em conforto.</h3>
         <p>Mais de 150 mil clientes satisfeitos em todo o mundo</p>
       </div>
     </section>
 
-    <section class="container">
+    <section id="nossos-projetos" class="container">
       <h2>Nossos Projetos</h2>
 
       <figure class="thumbnail">
@@ -162,13 +192,21 @@
       </figure>
     </section>
 
-    <section>
+    <section id="depoimentos">
       <h2 class="container titulo-depoimentos">Depoimentos dos Clientes</h2>
-      
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+      <div
+        id="carousel-example-generic"
+        class="carousel slide"
+        data-ride="carousel"
+      >
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li
+            data-target="#carousel-example-generic"
+            data-slide-to="0"
+            class="active"
+          ></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
@@ -224,7 +262,7 @@
       </div>
     </section>
 
-    <section class="container">
+    <section id="video" class="container">
       <h2>Vídeo Institucional</h2>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe
@@ -239,7 +277,7 @@
       </div>
     </section>
 
-    <section class="container">
+    <section id="contato" class="container">
       <h2>Contato</h2>
       <p>Entre em contato conosco</p>
       <form>
@@ -297,7 +335,6 @@
         Tel: (31) 5571-2751 ou 5083-3884<br />
       </address>
       <address>E-mail: contato.casafina@arquitetura.com.br</address>
-
     </footer>
     <script src="assets/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
