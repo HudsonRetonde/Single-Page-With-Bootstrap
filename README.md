@@ -13,7 +13,7 @@ Responsividade conforme o tamanho da tela:
 ![image](https://user-images.githubusercontent.com/100444673/210158045-322273c4-9f56-4b0e-aef0-f08339320293.png)
 ![image](https://user-images.githubusercontent.com/100444673/210158059-3360fdf7-4acc-443f-8e7e-d6423a1bc023.png)
 
-Confira o Deplou acessando o [link](https://hudsonretonde.github.io/Single-Page-With-Bootstrap/)
+Confira o Deploy acessando o [link](https://hudsonretonde.github.io/Single-Page-With-Bootstrap/)
 
 
 
